@@ -17,7 +17,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
-		<mysql.version>8.0.13</mysql.version>
+		<!-- <mysql.version>6.3.8</mysql.version> -->
 	</properties>
 
 	<dependencies>
@@ -37,7 +37,7 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
-			<version>${mysql.version}</version>
+			<!-- <version>${mysql.version}</version> -->
 		</dependency>
 		<!-- For Working with Json Web Tokens (JWT) -->
 		<dependency>
